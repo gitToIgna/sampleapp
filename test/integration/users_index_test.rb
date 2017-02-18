@@ -6,7 +6,7 @@ class UsersIndexTest < ActionDispatch::IntegrationTest
   # end
 
   def setup
-    @admin     = users(:michael)
+    @admin = users(:michael)
     @non_admin = users(:archer)
   end
 
